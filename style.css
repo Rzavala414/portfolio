@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background:black;
   }
   
   .topnav {
@@ -75,3 +76,17 @@ body {
     margin: 0rem 1rem;
     color: white;
   }
+
+  #about{
+      background: white;
+      border-radius: 1rem;
+      margin-top: 4rem;
+
+  }
+
+  #about img{
+      float:left;
+      margin-right:1rem;
+  }
+  #about p{
+     margin-top: 1rem;
