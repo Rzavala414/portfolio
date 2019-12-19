@@ -53,3 +53,25 @@ body {
       text-align: left;
     }
   }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding-top: 1.5rem;
+  }
+
+  .fa-linkedin {
+    color: #007bb5;
+    font-size: 2rem;
+    margin: 0rem 1rem;
+  }
+
+  .fa-github {
+    font-size: 2rem;
+    margin: 0rem 1rem;
+    color: white;
+  }
