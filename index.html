@@ -28,22 +28,25 @@
         </header>
 
         <main>
+            <section>
+
+            </section>
           <div  class="container">
               <!-- About Section -->
-              <div id="about" class="row">
+              <h2>About Me</h2>
+              <section id="about" class="row">
                   <div>
-                        <img src="https://s.ftcdn.net/v2013/pics/all/curated/RKyaEDwp8J7JKeZWQPuOVWvkUjGQfpCx_cover_580.jpg?r=1a0fc22192d0c808b8bb2b9bcfbf4a45b1793687" alt="profile picture">
+                        <!--  <img src="https://s.ftcdn.net/v2013/pics/all/curated/RKyaEDwp8J7JKeZWQPuOVWvkUjGQfpCx_cover_580.jpg?r=1a0fc22192d0c808b8bb2b9bcfbf4a45b1793687" alt="profile picture"> -->
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam a vitae repudiandae voluptatum? At, amet nulla! Maiores at sint delectus? Ut quidem quos praesentium nam esse animi, inventore consequatur enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta veniam dignissimos labore. Omnis architecto reiciendis quaerat, labore minima odio corrupti eos doloremque maiores ut aut, obcaecati perspiciatis explicabo iste itaque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dicta reiciendis. Expedita pariatur quam iste amet! Amet est officiis asperiores! Beatae cum voluptatem magnam deserunt nemo excepturi, ipsum alias praesentium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut enim esse odio assumenda dolorem ab aliquid corrupti vero. Quia voluptatum, recusandae iure quam itaque voluptas ipsum repudiandae a debitis quos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Et amet assumenda id temporibus facere, nobis quam veniam quis iure accusantium tempora, hic velit nemo non sequi, sunt debitis. Deleniti, distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. In eligendi, voluptate itaque a, inventore repudiandae quis voluptatum facere blanditiis qui optio repellat autem dolorum amet quam temporibus ipsa alias mollitia! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio repellendus, at rerum exercitationem error culpa ipsam iusto, soluta voluptatibus qui tempore quasi labore neque autem. Non rem eius maiores doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cupiditate libero nobis aspernatur nemo error nesciunt minus fugit sit dolore? Maiores unde reprehenderit a ullam impedit ab illo veniam officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, repellendus? Quos ut dignissimos aliquam eius ad iusto deserunt maiores saepe. Quos non praesentium corrupti deserunt suscipit fugiat, consectetur pariatur ab.
                         </p>
                   </div>
 
-              </div>
+              </section>
 
               <!-- Portfolio -->
-              <div id="portfolio">
-
-             
+              <section id="portfolio">
+                <h2>Portfolio</h2>
               <div class="row">
                 <div class="card col-md-4 topRowCard" style="width: 18rem;">
                     <img src="./images/crystalgame.png" class="card-img-top" alt="cribSmack">
@@ -123,27 +126,34 @@
                     </div>
                   </div>
               </div>
-              </div>
+              </section>
           </div>
+
           <!-- Contact -->
-          <div class="row"> 
-        
-          <form>
-              <label for="name">Name</label>
-              <input type="text" id="name" name="" placeholder="Enter your name..." required>
-              <label for="email">Email</label>
-              <input type="text" id="email" name="email" placeholder="Enter your Email" required> 
-              <select for="reason" id="reason">
-                <option value="">Web Design</option>
-                <option value="">Web Develpment</option>
-                <option value="">Web Design/Development</option>
-                <option value="">Employment Oportunity</option>
-              </select>
-              <label for="subject">Subject:</label>
-              <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
-              <input type="submit" value="Submit">
-          </form>
+          <section class="contact" id="contact"> 
+            <div class="container">
+              <div class="section-heading">
+                  <h1>Contact</h1>
+                  <h6>Let's work together</h6>
+              </div>
+              <form action="">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="" placeholder="Enter your name..." required>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Enter your Email" required> 
+                <label for="services">Reason:</label>
+                <select name="services" id="services">
+                  <option value="">Web Design</option>
+                  <option value="">Web Develpment</option>
+                  <option value="">Web Design/Development</option>
+                  <option value="">Employment Oportunity</option>
+                </select>
+                <label for="subject">Message:</label>
+                <textarea name="subject" id="subject" cols="10" rows="10" required></textarea>
+                <input type="submit" value="Submit">
+             </form>
         </div>
+        </section>
         </main>
         
         <footer class="footer">
