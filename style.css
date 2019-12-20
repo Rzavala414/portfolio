@@ -78,24 +78,7 @@ body {
     color: white;
   }
 
-  #about{
-      background: white;
-      border-radius: 1rem;
-      margin-top: 4rem;
-
-  }
-
-  #about img{
-      float:left;
-      margin:1rem 1rem 0rem 1rem;
-  }
-  #about p{
-     margin-top: 1rem;
-  }
-
-  #portfolio{
-      margin-top:15rem;
-  }
+ 
 
 .topRowCard{
     display:flex;
