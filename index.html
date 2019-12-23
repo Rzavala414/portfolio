@@ -1,181 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <!-- Font-awesome  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- Local Style Sheet -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-</head>        
-        <body>
-        <header>
-            <div class="topnav" id="myTopnav">
-                <a href="#" class="active">Rogelio Zavala</a>
-                <a href="#about">About</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#contact">Contact</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-            <div class="landing-text">
-              <h1>Rogelio R. Zavala</h1>
-              <h6>Full-Stack Web Developer</h6>
-            </div>
-        </header>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- Local Style Sheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Nav Bar -->
+  <header>
+      <div class="menu-toggler">
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
+      </div>
+      <nav class="top-nav">
+        <ul class="nav-list">
 
-        <main>
-            <!-- About -->
-            <section class="about" id="about">
-              <div class="container">
-                <div class="profile-img">
-                  <img src="https://s.ftcdn.net/v2013/pics/all/curated/RKyaEDwp8J7JKeZWQPuOVWvkUjGQfpCx_cover_580.jpg?r=1a0fc22192d0c808b8bb2b9bcfbf4a45b1793687">
-                </div>
-                <div class="about-details">
-                  <h1>About</h1>
-                  <h6>Myself</h6>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quia alias qui mollitia atque quis, placeat vitae hic inventore nesciunt repellendus dolore dicta? Suscipit dolorem alias facere quod ipsa magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nostrum tempora cum fugiat consequuntur reiciendis, aliquid veniam culpa enim facere minus harum exercitationem at a vitae modi nisi placeat eum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi aspernatur cum harum. Vitae quos quia iste deserunt, eaque facere aperiam quibusdam itaque delectus cum eius autem blanditiis adipisci totam! Quis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi officiis sequi facere laudantium cupiditate ab dignissimos debitis dolorem! Blanditiis rerum iure expedita voluptas perferendis voluptatum et quasi sunt esse magni.
-                </p>
-              </div>
-            </section>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
           
-            <!-- Portfolio -->
-          <section class="portfolio" id="portfolio">
-            <div class="container">
-              <div class="section-heading">
-                <h1>Portfolio</h1>
-                <h6>View some of my recent work</h6>
-              </div>
-              <div class="portfolio-item">
-                <div class="portfolio-img">
-                  <img src="./images/explor.png" alt="">
-                </div>
-                <div class="portfolio-description">
-                  <h6>What type of program is ie full-stack,front-end, shell</h6>
-                  <h1>Product name</h1>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, veritatis. Eveniet, nemo dolor iure recusandae libero, velit ducimus vitae eaque earum amet quam aperiam qui ab, temporibus cupiditate. Omnis, fuga?
-                  </p>
-                  <a href="#" target="_blank">View Website</a>
-                  <span><a href="#" target="_blank">View Repo</a></span>
-                </div>
-              </div>
-              <div class="portfolio-item">
-                <div class="portfolio-img">
-                  <img src="./images/GoGang.png" alt="">
-                </div>
-                <div class="portfolio-description">
-                  <h6>What type of program is ie full-stack,front-end, shell</h6>
-                  <h1>Product name</h1>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, veritatis. Eveniet, nemo dolor iure recusandae libero, velit ducimus vitae eaque earum amet quam aperiam qui ab, temporibus cupiditate. Omnis, fuga?
-                  </p>
-                  <a href="#" target="_blank">View Website</a>
-                  <span><a href="#" target="_blank">View Repo</a></span>
-                </div>
-              </div>
-              <div class="portfolio-item">
-                <div class="portfolio-img">
-                  <img src="./images/giftastic.png" alt="">
-                </div>
-                <div class="portfolio-description">
-                  <h6>What type of program is ie full-stack,front-end, shell</h6>
-                  <h1>Product name</h1>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, veritatis. Eveniet, nemo dolor iure recusandae libero, velit ducimus vitae eaque earum amet quam aperiam qui ab, temporibus cupiditate. Omnis, fuga?
-                  </p>
-                  <a href="#" target="_blank">View Website</a>
-                  <span><a href="#" target="_blank">View Repo</a></span>
-                </div>
-              </div>
-              <div class="portfolio-item">
-                <div class="portfolio-img">
-                  <img src="./images/crystalgame.png" alt="">
-                </div>
-                <div class="portfolio-description">
-                  <h6>What type of program is ie full-stack,front-end, shell</h6>
-                  <h1>Product name</h1>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, veritatis. Eveniet, nemo dolor iure recusandae libero, velit ducimus vitae eaque earum amet quam aperiam qui ab, temporibus cupiditate. Omnis, fuga?
-                  </p>
-                  <a href="#" target="_blank">View Website</a>
-                  <span><a href="#" target="_blank">View Repo</a></span>
-                </div>
-              </div>
-              <div class="portfolio-item">
-                <div class="portfolio-img">
-                  <img src="" alt="">
-                </div>
-                <div class="portfolio-description">
-                  <h6>What type of program is ie full-stack,front-end, shell</h6>
-                  <h1>Product name</h1>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, veritatis. Eveniet, nemo dolor iure recusandae libero, velit ducimus vitae eaque earum amet quam aperiam qui ab, temporibus cupiditate. Omnis, fuga?
-                  </p>
-                  <a href="#" target="_blank">View Website</a>
-                  <span><a href="#" target="_blank">View Repo</a></span>
-                </div>
-              </div>
-              <div class="portfolio-item">
-                <div class="portfolio-img">
-                  <img src="" alt="">
-                </div>
-                <div class="portfolio-description">
-                  <h6>What type of program is ie full-stack,front-end, shell</h6>
-                  <h1>Product name</h1>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, veritatis. Eveniet, nemo dolor iure recusandae libero, velit ducimus vitae eaque earum amet quam aperiam qui ab, temporibus cupiditate. Omnis, fuga?
-                  </p>
-                  <a href="#" target="_blank">View Website</a>
-                  <span><a href="#" target="_blank">View Repo</a></span>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- Contact -->
-          <section class="contact" id="contact"> 
-            <div class="container">
-              <div class="section-heading">
-                  <h1>Contact</h1>
-                  <h6>Let's work together</h6>
-              </div>
-              <form action="">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="" placeholder="Enter your name..." required>
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="Enter your Email" required> 
-                <label for="services">Reason:</label>
-                <select name="services" id="services">
-                  <option value="">Web Design</option>
-                  <option value="">Web Develpment</option>
-                  <option value="">Web Design/Development</option>
-                  <option value="">Employment Oportunity</option>
-                </select>
-                <label for="subject">Message:</label>
-                <textarea name="subject" id="subject" cols="10" rows="10" required></textarea>
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-        </section>
-        </main>
-        
-        <footer class="copyright">
-        <!-- <span><a href="https://github.com/Rzavala414" class="fa fa-github" target="_blank"></a></span>
-        <span><a href="https://www.linkedin.com/in/rzavala15" class="fa fa-linkedin"target="_blank"></a></span> -->
-        <div class="up" id="up">
-          <i class="up" id="fa-chevron-up"></i>
-        </div>
-        <p>&copy; 2019 Rogelio Zavala</p>
-      </footer>
+        </ul>
+      </nav>
+      <div class="landing-text">
+        <h1>Rogelio Zavala</h1>
+        <h6>UI | UX Web Developer</h6>
+      </div>
+  </header>
 
-        <script src="app.js"> </script>
+  <main>
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+          <img src="./images/profile.jpeg" alt="blerp">
+        </div>
+        <div class="about-details" data-aos="fade-left" data-aos-delay="300">
+          <div class="about-heading">
+            <h1>About</h1>
+            <h2>Myself</h2>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, eaque natus accusamus illum ipsum sunt cupiditate adipisci minus magnam perferendis harum dolor! Natus perferendis optio, soluta pariatur possimus voluptatem eaque!
+          </p>
+          <div class="social-media">
+            <ul class="nav-list">
+              <li><a href="#" class="icon-link"><i class="fab fa-facebook-square"></i></a></li>
+              <li><a href="#" class="icon-link"><i class="fab fa-twitter-square"></i></a></li>
+              <li><a href="#" class="icon-link"><i class="fab fa-dribble-square"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- Portfolio -->
+      <section class="portfolio" id="portfolio">
+        <div class="container">
+          <div class="section-heading">
+            <h6>View some of my recent work</h6>
+            <h1>Portfolio</h1>
+          </div>
+        
+          <!-- Portfolio item 1 -->
+          <div class="portfolio-item" data-aos="fade-left" data-aos-delay="300">
+            <div class="portfolio-img has-margin-right">
+              <img src="./images/portitem1.jpeg" alt="">
+            </div>
+            <div class="portfolio-description">
+              <h6>Web Development</h6>
+              <h1>Blog Website</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam unde incidunt consequuntur aliquam tempore quod velit nihil. Quasi ex pariatur amet quia ducimus harum cum a odit quae? Aliquid, amet.
+              </p>
+              <a href="#" class="cta">View Details</a>
+            </div>
+          </div>
+
+           <!-- Portfolio item 2 -->
+          <div class="portfolio-item" data-aos="fade-right" data-aos-delay="300">
+            <div class="portfolio-description">
+              <h6>Web Development</h6>
+              <h1>Blog Website</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam unde incidunt consequuntur aliquam tempore quod velit nihil. Quasi ex pariatur amet quia ducimus harum cum a odit quae? Aliquid, amet.
+              </p>
+              <a href="#" class="cta">View Details</a>
+            </div>
+            <div class="portfolio-img has-margin-right">
+              <img src="./images/portitem2.jpeg" alt="">
+            </div>
+          </div>
+
+           <!-- Portfolio item 3 -->
+          <div class="portfolio-item" data-aos="fade-left" data-aos-delay="300">
+            <div class="portfolio-img has-margin-right">
+              <img src="./images/portitem3.jpeg" alt="">
+            </div>
+            <div class="portfolio-description">
+              <h6>Web Development</h6>
+              <h1>Blog Website</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam unde incidunt consequuntur aliquam tempore quod velit nihil. Quasi ex pariatur amet quia ducimus harum cum a odit quae? Aliquid, amet.
+              </p>
+              <a href="#" class="cta">View Details</a>
+            </div>
+          </div>
+           <!-- Portfolio item 4 -->
+          <div class="portfolio-item" data-aos="fade-right" data-aos-delay="300">
+            <div class="portfolio-description">
+              <h6>Web Development</h6>
+              <h1>Blog Website</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam unde incidunt consequuntur aliquam tempore quod velit nihil. Quasi ex pariatur amet quia ducimus harum cum a odit quae? Aliquid, amet.
+              </p>
+              <a href="#" class="cta">View Details</a>
+            </div>
+            <div class="portfolio-img has-margin-right">
+              <img src="./images/portitem2.jpeg" alt="">
+            </div>
+          </div>
+
+           <!-- Portfolio item 5 -->
+          <div class="portfolio-item" data-aos="fade-left" data-aos-delay="300">
+            <div class="portfolio-img has-margin-right">
+              <img src="./images/portitem3.jpeg" alt="">
+            </div>
+            <div class="portfolio-description">
+              <h6>Web Development</h6>
+              <h1>Blog Website</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam unde incidunt consequuntur aliquam tempore quod velit nihil. Quasi ex pariatur amet quia ducimus harum cum a odit quae? Aliquid, amet.
+              </p>
+              <a href="#" class="cta">View Details</a>
+            </div>
+          </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact" id="contact"> 
+        <div class="container">
+          <div class="section-heading">
+              <h1>Contact</h1>
+              <h6>Let's work together</h6>
+          </div>
+          <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="" placeholder="Enter your name..." required>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Enter your Email" required> 
+            <label for="services">Reason:</label>
+            <select name="services" id="services">
+              <option value="">Web Design</option>
+              <option value="">Web Develpment</option>
+              <option value="">Web Design/Development</option>
+              <option value="">Employment Oportunity</option>
+            </select>
+            <label for="subject">Message:</label>
+            <textarea name="subject" id="subject" cols="10" rows="10" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+  </main>
+
+  
+  <footer class="copyright">
+    <div class="up" id="up">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+    <p>&copy; 2020 Rogelio Zavala</p>
+  </footer>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
