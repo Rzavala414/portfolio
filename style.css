@@ -7,7 +7,7 @@
 
 html{
   font-size: 10px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   color:#eee;
 }
 
@@ -131,7 +131,7 @@ li{
 }
 
 .nav-link{
-  font-family: "The Historia Demo", sans-serif;
+  font-family: 'Merienda One', cursive;
   font-size: 5rem;
   padding: 1rem;
 }
@@ -140,7 +140,7 @@ li{
 .nav-link:focus{
   background: linear-gradient(to top, magenta, red);
   -webkit-background-clip: text;
-  -webkit-text-stroke-color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .top-nav.open{
@@ -149,7 +149,7 @@ li{
 }
 
 .menu-toggler{
-  position: absolute;
+  position: fixed;
   top: 5rem;
   right: 5rem;
   width: 5rem;
@@ -208,7 +208,7 @@ li{
 
 .landing-text h1{
   font-size: 20rem;
-  font-family: 'The Historia Demo', sans-serif;
+  font-family: 'Merienda One', cursive;
   background: linear-gradient(to top, magenta, #0739ea);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -410,7 +410,7 @@ input[type="submit"]:hover{
     box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
   }
   70%{
-    box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
+    box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
   }
   100%{
     box-shadow: 0 0 0 0 rgba(2553, 87, 191, 0);
@@ -419,100 +419,106 @@ input[type="submit"]:hover{
 /*End animations*/
 
 /*Start media queries*/
+
 @media screen and (max-width: 768px){
-body{
-  width: 100%;
-  height: 100;
-  background: url() no-repeat center fixed;
-  background-size: cover;
-}
+  body{
+    width: 100%;
+    height: 100;
+    /* background: url() no-repeat center fixed; */
+    background-color: black;
+    background-size: cover;
+  }
 
-.landing-text h1{
-font-size: 15rem;
-}
+  .landing-text h1{
+    font-size: 15rem;
+  }
 
-.landing-text h6{
-font-size: 1.7rem;
-}
+  .landing-text h6{
+    font-size: 1.7rem;
+  }
 
-li{
-margin: 2rem 0;
-}
+  .nav-list{
+    flex-direction: column;
+  }
 
-.nav-link{
-font-size: 4.5rem;
-}
+  li{
+    margin: 2rem 0;
+  }
 
-.about-heading h1{
-font-size: 8rem;
-}
+  .nav-link{
+    font-size: 4.5rem;
+  }
 
-.section-heading h1{
-font-size: 3rem;
-}
+  .about-heading h1{
+  font-size: 8rem;
+  }
 
-.about-detail .nav-list{
-flex-direction:  initial;
-}
+  .section-heading h1{
+  font-size: 3rem;
+  }
 
-.about-details{
-margin: 0 2rem;
-}
+  .about-detail .nav-list{
+  flex-direction:  initial;
+  }
 
-.icon-container{
-width: 7rem;
-height: 7rem;
-}
+  .about-details{
+  margin: 0 2rem;
+  }
 
-.icon-container i{
-font-size: 4rem;
-}
-}
+  .icon-container{
+  width: 7rem;
+  height: 7rem;
+  }
 
-@media screen and (max-width: 600px){
-.menu.toggler{
-  top: 2rem;
-  right: 2rem;
-}
+  .icon-container i{
+  font-size: 4rem;
+  }
+  }
 
-.landing-text h1{
-  font-size: 1.4rem;
-}
+  @media screen and (max-width: 600px){
+  .menu.toggler{
+    top: 2rem;
+    right: 2rem;
+  }
 
-.nav-link{
-  font-size: 3.5rem;
-}
+  .landing-text h1{
+    font-size: 5.5rem;
+  }
 
-.about .container{
-  flex-direction: column;
-}
+  .nav-link{
+    font-size: 3.5rem;
+  }
 
-.profile-img{
-  margin: 0 0 7rem 0;
-}
+  .about .container{
+    flex-direction: column;
+  }
 
-.portfolio-item{
-  flex-direction: column;
-}
+  .profile-img{
+    margin: 0 0 7rem 0;
+  }
 
-.portfolio-img{
-  margin: 0 0 2rem 0;
-  order: 1;
-}
+  .portfolio-item{
+    flex-direction: column;
+  }
 
-.portfolio-description{
-  margin: 0;
-  order: 2;
-}
+  .portfolio-img{
+    margin: 0 0 2rem 0;
+    order: 1;
+  }
 
-form{
-  width: 100%;
-}
+  .portfolio-description{
+    margin: 0;
+    order: 2;
+  }
 
-.up{
-  right: 2rem;
-}
+  form{
+    width: 100%;
+  }
+
+  .up{
+    right: 2rem;
+  }
 
 
-}
+  }
 /*End media queries*/
