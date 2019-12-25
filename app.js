@@ -24,8 +24,38 @@ $(document).ready(function(){
 
   AOS.init({
       easing: 'ease',
-      duration: 1200,
+      duration: 1500,
       once: true
   })
+
+  $(".submit").on("click", function (event) {
+        event.preventDefault();
+
+        let name = $('#name').val();
+        let email = $('#email').val();
+        let services = $('#services').val();  
+        let message = $('#subject')
+
+        if(email.length > 5 && email.includes('@') && email.includes('.')){
+            statusElm.append('<div>Email is Valid</div>')
+        } else{
+            event.preventDefault();   
+            statusElm.append('<div>Email is Invalid</div>')  
+        }
+        
+        if(subject.length > 2){
+            statusElm.append('<div>Email is Invalid</div>');   
+        } else{
+            event.preventDefault();   
+            statusElm.append('<div>Email is Invalid</div>');   
+        }
+        
+        if(message.length >+ 10){
+            statusElm.append('<div>Message is</div>');   
+        } else{
+            event.preventDefault();   
+            statusElm.append('<div>Message length too short</div>');   
+        }
+    });
 
 });
