@@ -34,7 +34,7 @@ $(document).ready(function(){
         let name = $('#name').val();
         let email = $('#email').val();
         let services = $('#services').val();  
-        let message = $('#subject')
+        let message = $('#subject').val();
 
         if(email.length > 5 && email.includes('@') && email.includes('.')){
             statusElm.append('<div>Email is Valid</div>')
@@ -50,7 +50,7 @@ $(document).ready(function(){
             statusElm.append('<div>Email is Invalid</div>');   
         }
         
-        if(message.length >+ 10){
+        if(message.length >= 10){
             statusElm.append('<div>Message is</div>');   
         } else{
             event.preventDefault();   
