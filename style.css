@@ -14,8 +14,8 @@ html{
 body{
   width: 100%;
   height: 100;
-  /* background: url() no-repeat center fixed; */
-  background-color: black;
+  
+  background-color: #221e3f;
   background-size: cover;
 }
 
@@ -111,7 +111,7 @@ header{
   position: fixed;
   top: -100vh;
   z-index: 50;
-  background-color: #16162d;
+  background-color: #134A73;
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
   transition: all 650ms cubic-bezier(1,0,0,1);
@@ -138,7 +138,7 @@ li{
 
 .nav-link:hover,
 .nav-link:focus{
-  background: linear-gradient(to top, magenta, red);
+  background: linear-gradient(to top, #EFEFD0, #FF6B35);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -167,7 +167,7 @@ li{
 }
 
 .bar{
-  background: linear-gradient(to right, magenta, #0739ea);
+  background: linear-gradient(to right, #EFEFD0, #FF6B35);
   width: 100%;
   height: 4px;
   border-radius: 0.8rem;
@@ -206,10 +206,20 @@ li{
   z-index: 1;
 }
 
+.header-background{
+  content:'';
+  height: 100vh;
+  width: 100%;
+  background: url(./images/Code-pic.jpg) no-repeat center fixed;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
 .landing-text h1{
   font-size: 20rem;
   font-family: 'Merienda One', cursive;
-  background: linear-gradient(to top, magenta, #0739ea);
+  /* background: linear-gradient(to top, #EFEFD0, #FF6B35); */
+  background: #EFEFD0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 1rem;
@@ -224,6 +234,10 @@ li{
 /*End header*/
 
 /*Start about*/
+.about{
+  margin-top: 6rem;
+}
+
 .about .container{
   display: flex;
   align-items: center;
@@ -307,6 +321,11 @@ li{
   margin: 1rem 0;
 }
 
+.portfolio-img img{
+  width: 40rem;
+  height: 25rem;
+}
+
 .portfolio-description h6{
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -319,12 +338,12 @@ display: inline-block;
 margin-top: 2.5rem;
 font-size: 1.5rem;
 text-transform: uppercase;
-color: #3883ff;
+color: #EFEFD0;
 transition: color 50ms;
 }
 
 .portfolio-description .cta:hover{
-  color: #2f67cd;
+  color: #999985;
 }
 /*End services*/
 
@@ -356,17 +375,18 @@ textarea{
 
 input[type="submit"]{
   width: initial;
-  background: #0739ea;
-  color: #eee;
+  background: #EFEFD0;
+  color: black;
   padding: 1rem 2rem;
   border-radius: .8rem;
   cursor: pointer;
   transition: background-color 650ms;
+  font-family: 'Merienda One', cursive ;
 }
 
 input[type="submit"]:hover{
   color: #221e3f;
-  background-color: magenta;
+  background-color: #999985;
 }
 /*End contact*/
 
@@ -393,7 +413,7 @@ input[type="submit"]:hover{
 }
 
 .up i{
-  color: #16162d;
+  color: rgb(51, 48, 48);
   font-size: 2rem;
   margin: auto;
 }
@@ -407,7 +427,7 @@ input[type="submit"]:hover{
 /*Start animations*/
 @keyframes pulse{
   0%{
-    box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+    box-shadow: 0 0 0 0 #FF936C;
   }
   70%{
     box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
@@ -425,7 +445,7 @@ input[type="submit"]:hover{
     width: 100%;
     height: 100;
     /* background: url() no-repeat center fixed; */
-    background-color: black;
+    background-color: #221e3f;
     background-size: cover;
   }
 
@@ -466,12 +486,12 @@ input[type="submit"]:hover{
   }
 
   .icon-container{
-  width: 7rem;
-  height: 7rem;
+    width: 7rem;
+    height: 7rem;
   }
 
   .icon-container i{
-  font-size: 4rem;
+    font-size: 4rem;
   }
   }
 
@@ -487,6 +507,10 @@ input[type="submit"]:hover{
 
   .nav-link{
     font-size: 3.5rem;
+  }
+  
+  .about{
+    margin-top: -2rem;
   }
 
   .about .container{
