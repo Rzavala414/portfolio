@@ -290,7 +290,11 @@ li{
 }
 
 .fa-file-download:hover{
-    color:#333'
+    color:rgba(168, 167, 167, 0.972);
+}
+
+.fa-envelope:hover{
+    color:rgba(168, 167, 167, 0.972);
 }
 /*End about*/
 
